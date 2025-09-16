@@ -2,10 +2,16 @@
 title: Welcome
 ---
 
---- 
-│ [Portfolio Highlights] │ [Work Notes] │ [Car Information] │  
----
+<style>
+.hr-nav {
+  margin-top: 0;
+}
+</style>
 
+
+│ [[Portfolio Highlights]] │ [[Work Notes]] │ [[Car Information]] │  
+
+<hr class="hr-nav">
 
 ## Welcome to my personal wiki!  
 
