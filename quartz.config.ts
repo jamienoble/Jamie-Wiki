@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f5f3e7",        // warm off-white
+          lightgray: "#e6dcc3",    // light tan
+          gray: "#b7a16a",         // muted brown
+          darkgray: "#6b5e3c",     // deep brown
+          dark: "#3e2f1c",         // dark brown
+          secondary: "#7a9c5c",    // warm green
+          tertiary: "#b7a16a",     // muted brown
+          highlight: "rgba(122, 156, 92, 0.15)", // green highlight
+          textHighlight: "#e6dcc388", // light tan highlight
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#2e2a24",        // dark brown
+          lightgray: "#4b473a",    // muted brown
+          gray: "#7a9c5c",         // warm green
+          darkgray: "#b7a16a",     // muted brown
+          dark: "#f5f3e7",         // warm off-white for text
+          secondary: "#a3c586",    // lighter green
+          tertiary: "#b7a16a",     // muted brown
+          highlight: "rgba(163, 197, 134, 0.15)", // green highlight
+          textHighlight: "#7a9c5c88", // green highlight
         },
       },
     },
