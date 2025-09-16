@@ -8,7 +8,7 @@ title: Welcome
 }
 </style>
 
-
+---
 │ [[Portfolio Highlights]] │ [[Work Notes]] │ [[Car Information]] │  
 
 <hr class="hr-nav">
