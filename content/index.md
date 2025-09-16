@@ -3,6 +3,12 @@ title: Welcome
 ---
 
 ```
++-------------------------------------------------------------+
+| [Portfolio Highlights](./portfolio) | [Work Notes](./work)  | [Car Information](./car) |
++-------------------------------------------------------------+
+```
+
+```
         ______
        //  ||\ \
  _____//___||_\ \___
@@ -20,13 +26,4 @@ Here you'll find a collection of notes, resources, and information related to my
 - **Portfolio**: Showcases of my skills, completed projects, and achievements.
 - **Car**: Maintenance logs, upgrades, and useful information about my vehicle.
 
-## Useful Links
-
-- [Portfolio Highlights](./portfolio)
-- [Work Notes](./work)
-- [Car Information](./car)
-
 ---
-
-Feel free to explore and reach out if you have any questions!
-Feel free to edit this page to make it your own!
