@@ -1,28 +1,37 @@
 ---
-title: Welcome to Quartz
+title: Welcome
 ---
 
-Welcome to your personal Quartz Wiki!  
-Quartz helps you organize your knowledge, notes, and ideas in a fast, flexible, and easy-to-use way.
+```
+        ______
+       //  ||\ \
+ _____//___||_\ \___
+ )  _          _    \
+ |_/ \________/ \___|
+___\_/________\_/______
+```
+
+Welcome to my personal wiki!  
+Here you'll find a collection of notes, resources, and information related to my work, portfolio, and car.
 
 ## Getting Started
 
-- Explore the [documentation](https://quartz.jzhao.xyz) to learn how to customize your wiki.
-- Start by creating new notes in the `content` folder.
-- Use Markdown to format your pages and link between them.
+- Browse the sections to explore topics related to my professional projects, portfolio highlights, and car maintenance.
+- Use Markdown-formatted pages for easy reading and navigation.
 
-## Features
+## Sections
 
-- **Fast search**: Quickly find any note.
-- **Backlinks**: See connections between your ideas.
-- **Easy publishing**: Share your wiki with others.
+- **Work**: Documentation, project notes, and professional resources.
+- **Portfolio**: Showcases of my skills, completed projects, and achievements.
+- **Car**: Maintenance logs, upgrades, and useful information about my vehicle.
 
 ## Useful Links
 
-- [How to use Quartz](https://quartz.jzhao.xyz/notes/getting-started)
-- [Customizing your site](https://quartz.jzhao.xyz/notes/configuration)
-- [Markdown guide](https://www.markdownguide.org/basic-syntax/)
+- [Portfolio Highlights](./portfolio)
+- [Work Notes](./work)
+- [Car Information](./car)
 
 ---
 
+Feel free to explore and reach out if you have any questions!
 Feel free to edit this page to make it your own!
