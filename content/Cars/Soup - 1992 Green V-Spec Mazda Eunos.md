@@ -1,6 +1,7 @@
 ---
 title: Soup - 1992 Green V-Spec Mazda Eunos
-search: false
+search: true
+hidden: true
 ---
 
 

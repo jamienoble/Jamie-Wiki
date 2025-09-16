@@ -18,6 +18,7 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
   private fileSegmentHint?: string
   private displayNameOverride?: string
   data: T | null
+  frontmatter: any
 
   constructor(segments: string[], data?: T) {
     this.children = []
