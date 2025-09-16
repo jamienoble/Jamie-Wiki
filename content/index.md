@@ -2,14 +2,14 @@
 title: Welcome
 ---
 
-```
+
         ______
        //  ||\ \
  _____//___||_\ \___
  )  _          _    \
  |_/ \________/ \___|
 ___\_/________\_/______
-```
+
 
 Welcome to my personal wiki!  
 Here you'll find a collection of notes, resources, and information related to my work, portfolio, and car.
