@@ -2,9 +2,11 @@
 title: Welcome
 ---
 
+<div style="font-family: 'IBM Plex Mono', monospace; white-space: pre; overflow-x: auto; width: 100%; min-width: 600px;">
 +-----------------------------------------------------------------+
 | [[Portfolio Highlights]] | [[Work Notes]] | [[Car Information]] |
 +-----------------------------------------------------------------+
+</div>
 
 
 
