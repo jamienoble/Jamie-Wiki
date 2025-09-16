@@ -5,10 +5,12 @@ title: Welcome
 <style>
 .hr-nav {
   margin-top: 0;
+  margin-bottom: 0;
 }
 </style>
 
----
+<hr class="hr-nav">
+
 │ [[Portfolio Highlights]] │ [[Work Notes]] │ [[Car Information]] │  
 
 <hr class="hr-nav">
