@@ -2,11 +2,9 @@
 title: Welcome
 ---
 
-<pre style="font-family: 'IBM Plex Mono', monospace; white-space: pre; overflow-x: auto; width: 100%; min-width: 600px;">
-+---------------------------------------------------------------------+
-| [[Portfolio Highlights]] | [[Work Notes]] | [[Car Information]]     |
-+---------------------------------------------------------------------+
-</pre>
+┌───────────────────────────────────────────────────────────┐  
+│ [Portfolio Highlights] │ [Work Notes] │ [Car Information] │  
+└───────────────────────────────────────────────────────────┘  
 
 ## Welcome to my personal wiki!  
 
@@ -22,4 +20,5 @@ Here you'll find a collection of notes, resources, and information related to my
 - **Portfolio**: Showcases of my skills, completed projects, and achievements.
 - **Car**: Maintenance logs, upgrades, and useful information about my vehicle.
 
+---
 ---
