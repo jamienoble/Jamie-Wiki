@@ -1,0 +1,132 @@
+{
+  "name": "Earthy Palette",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1B2B22",           // Forest Night
+    "editor.foreground": "#F3F0E7",           // Linen
+    "editorLineNumber.foreground": "#6C8A7B", // Riverstone
+    "editorCursor.foreground": "#C97D60",     // Terracotta
+    "editor.selectionBackground": "#6C8A7B",  // Riverstone
+    "editor.inactiveSelectionBackground": "#4C7A5D99", // Fern, semi-transparent
+    "editorIndentGuide.background": "#3A3A32", // Charcoal
+    "editorIndentGuide.activeBackground": "#A3B18A", // Sage
+    "editorBracketMatch.background": "#E9DCC3", // Clay
+    "editorBracketMatch.border": "#D9A441",     // Ochre
+    "editorGutter.background": "#233024",       // Moss
+    "editorGroup.border": "#3A3A32",            // Charcoal
+    "sideBar.background": "#233024",            // Moss
+    "sideBar.foreground": "#F3F0E7",            // Linen
+    "activityBar.background": "#2E2217",        // Soil
+    "activityBar.foreground": "#F3F0E7",        // Linen
+    "statusBar.background": "#4C7A5D",          // Fern
+    "statusBar.foreground": "#F3F0E7",          // Linen
+    "titleBar.activeBackground": "#233024",     // Moss
+    "titleBar.activeForeground": "#F3F0E7",     // Linen
+    "titleBar.inactiveBackground": "#3A3A32",   // Charcoal
+    "titleBar.inactiveForeground": "#E9DCC3",   // Clay
+    "button.background": "#4C7A5D",             // Fern
+    "button.foreground": "#F3F0E7",             // Linen
+    "dropdown.background": "#233024",           // Moss
+    "dropdown.foreground": "#F3F0E7",           // Linen
+    "input.background": "#3A3A32",              // Charcoal
+    "input.foreground": "#F3F0E7",              // Linen
+    "badge.background": "#C97D60",              // Terracotta
+    "badge.foreground": "#F3F0E7",              // Linen
+    "list.activeSelectionBackground": "#6C8A7B", // Riverstone
+    "list.activeSelectionForeground": "#1B2B22", // Forest Night
+    "list.inactiveSelectionBackground": "#A3B18A", // Sage
+    "list.inactiveSelectionForeground": "#1B2B22", // Forest Night
+    "notification.background": "#E9DCC3",       // Clay
+    "notification.foreground": "#1B2B22",       // Forest Night
+    "errorForeground": "#A34F2B",               // Redwood
+    "warningForeground": "#D9A441",             // Ochre
+    "terminal.background": "#1B2B22",           // Forest Night
+    "terminal.foreground": "#F3F0E7",           // Linen
+    "terminal.ansiBlack": "#1B2B22",            // Forest Night
+    "terminal.ansiRed": "#A34F2B",              // Redwood
+    "terminal.ansiGreen": "#4C7A5D",            // Fern
+    "terminal.ansiYellow": "#D9A441",           // Ochre
+    "terminal.ansiBlue": "#3E5C4B",             // Pine
+    "terminal.ansiMagenta": "#C97D60",          // Terracotta
+    "terminal.ansiCyan": "#6C8A7B",             // Riverstone
+    "terminal.ansiWhite": "#F3F0E7",            // Linen
+    "terminal.ansiBrightBlack": "#3A3A32",      // Charcoal
+    "terminal.ansiBrightRed": "#C97D60",        // Terracotta
+    "terminal.ansiBrightGreen": "#A3B18A",      // Sage
+    "terminal.ansiBrightYellow": "#B5A642",     // Olive
+    "terminal.ansiBrightBlue": "#4C7A5D",       // Fern
+    "terminal.ansiBrightMagenta": "#A34F2B",    // Redwood
+    "terminal.ansiBrightCyan": "#A3B18A",       // Sage
+    "terminal.ansiBrightWhite": "#F5E9D4"       // Sand
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#A3B18A", "fontStyle": "italic" } // Sage
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": { "foreground": "#C97D60" } // Terracotta
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": { "foreground": "#F3F0E7" } // Linen
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": { "foreground": "#4C7A5D", "fontStyle": "bold" } // Fern
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#6C8A7B" } // Riverstone
+    },
+    {
+      "scope": ["entity.name.type", "support.type"],
+      "settings": { "foreground": "#D9A441" } // Ochre
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#B5A642" } // Olive
+    },
+    {
+      "scope": ["variable.language"],
+      "settings": { "foreground": "#A34F2B" } // Redwood
+    },
+    {
+      "scope": ["markup.bold"],
+      "settings": { "foreground": "#C97D60", "fontStyle": "bold" } // Terracotta
+    },
+    {
+      "scope": ["markup.italic"],
+      "settings": { "foreground": "#A3B18A", "fontStyle": "italic" } // Sage
+    },
+    {
+      "scope": ["markup.heading"],
+      "settings": { "foreground": "#A34F2B", "fontStyle": "bold" } // Redwood
+    },
+    {
+      "scope": ["markup.link"],
+      "settings": { "foreground": "#4C7A5D", "fontStyle": "underline" } // Fern
+    },
+    {
+      "scope": ["markup.inserted"],
+      "settings": { "foreground": "#4C7A5D" } // Fern
+    },
+    {
+      "scope": ["markup.deleted"],
+      "settings": { "foreground": "#A34F2B" } // Redwood
+    },
+    {
+      "scope": ["markup.changed"],
+      "settings": { "foreground": "#D9A441" } // Ochre
+    },
+    {
+      "scope": ["markup.quote"],
+      "settings": { "foreground": "#6C8A7B", "fontStyle": "italic" } // Riverstone
+    },
+    {
+      "scope": ["markup.raw"],
+      "settings": { "foreground": "#3A3A32" } // Charcoal
+    }
+  ]
+}
