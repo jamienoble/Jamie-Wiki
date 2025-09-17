@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Welcome","created":"2025-09-16T16:16:46.176+01:00","modified":"2025-09-16T16:17:03.114+01:00","cssclasses":""}
+{"publish":true,"title":"Welcome","created":"2025-09-16T16:16:46.176+01:00","modified":"2025-09-16T16:58:45.572+01:00","cssclasses":""}
 ---
 
 
@@ -12,7 +12,7 @@
 
 <hr class="hr-nav">
 
-│ [[Portfolio Highlights]] │ [[Work Notes]] │ [[Car Information]] │  
+│ [[News]] │ [[Contributors]] │ [[Map]] │  
 
 <hr class="hr-nav">
 
