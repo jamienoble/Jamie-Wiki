@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f8f8f2",        // Background (Dracula Foreground, but light)
-          lightgray: "#e6e6e6",    // Custom light gray
-          gray: "#44475a",         // Current Line (for borders, etc.)
-          darkgray: "#6272a4",     // Comment (for secondary text)
-          dark: "#282a36",         // Text (Dracula Background, but dark for contrast)
-          secondary: "#8be9fd",    // Cyan
-          tertiary: "#ffb86c",     // Orange
-          highlight: "rgba(189, 147, 249, 0.15)", // Purple highlight
-          textHighlight: "#ff79c688", // Pink highlight
+          light: "#F5E9D4",        // Sand
+          lightgray: "#E9DCC3",    // Clay
+          gray: "#F3F0E7",         // Linen
+          darkgray: "#E6D8B6",     // Wheat
+          dark: "#1B2B22",         // Forest Night
+          secondary: "#4C7A5D",    // Fern
+          tertiary: "#C97D60",     // Terracotta
+          highlight: "rgba(108,138,123,0.15)", // Riverstone
+          textHighlight: "#D9A44188", // Ochre (with opacity)
         },
         darkMode: {
-          light: "#282a36",        // Background
-          lightgray: "#44475a",    // Current Line
-          gray: "#6272a4",         // Comment
-          darkgray: "#bd93f9",     // Purple
-          dark: "#f8f8f2",         // Foreground for text
-          secondary: "#50fa7b",    // Green
-          tertiary: "#ffb86c",     // Orange
-          highlight: "rgba(80, 250, 123, 0.15)", // Green highlight
-          textHighlight: "#f1fa8c88", // Yellow highlight
+          light: "#1B2B22",        // Forest Night (background)
+          lightgray: "#233024",    // Moss
+          gray: "#3A3A32",         // Charcoal
+          darkgray: "#2E2217",     // Soil
+          dark: "#F5E9D4",         // Sand (text)
+          secondary: "#4C7A5D",    // Fern
+          tertiary: "#C97D60",     // Terracotta
+          highlight: "rgba(108,138,123,0.15)", // Riverstone
+          textHighlight: "#D9A44188", // Ochre (with opacity)
         },
       },
     },
