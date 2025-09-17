@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Earthy Palette Mockup</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #F3F0E7;
+      color: #2E2217;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 24px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(27,43,34,0.08);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 32px;
+      font-size: 2.2em;
+      letter-spacing: 1px;
+    }
+    .group {
+      margin-bottom: 36px;
+    }
+    .group-title {
+      font-size: 1.3em;
+      margin-bottom: 12px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .swatches {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .swatch {
+      width: 120px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      background: #F3F0E7;
+      border: 1px solid #e9dcc3;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .swatch-color {
+      height: 48px;
+      width: 100%;
+    }
+    .swatch-info {
+      padding: 8px 10px;
+      font-size: 0.97em;
+      color: #2E2217;
+      background: #fff;
+    }
+    .swatch-name {
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+    .swatch-hex {
+      font-family: monospace;
+      font-size: 0.95em;
+      color: #6C8A7B;
+      margin-bottom: 2px;
+    }
+    .swatch-desc {
+      font-size: 0.93em;
+      color: #3A3A32;
+    }
+    .usage {
+      font-size: 0.98em;
+      margin-bottom: 18px;
+      color: #4C7A5D;
+    }
+    @media (max-width: 700px) {
+      .container { padding: 8px; }
+      .swatches { gap: 12px; }
+      .swatch { width: 100px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌲 Earthy Palette Mockup</h1>
+
+    <div class="group">
+      <div class="group-title">Group 1: Deep Earth</div>
+      <div class="usage">For dark backgrounds, or fonts in light mode.</div>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#1B2B22"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Forest Night</div>
+            <div class="swatch-hex">#1B2B22</div>
+            <div class="swatch-desc">Deep green-black</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#2E2217"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Soil</div>
+            <div class="swatch-hex">#2E2217</div>
+            <div class="swatch-desc">Rich dark brown</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#233024"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Moss</div>
+            <div class="swatch-hex">#233024</div>
+            <div class="swatch-desc">Muted dark green</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#3A3A32"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Charcoal</div>
+            <div class="swatch-hex">#3A3A32</div>
+            <div class="swatch-desc">Earthy dark gray</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <div class="group-title">Group 2: Sunlit Earth</div>
+      <div class="usage">For light backgrounds, or fonts in dark mode.</div>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#F5E9D4"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Sand</div>
+            <div class="swatch-hex">#F5E9D4</div>
+            <div class="swatch-desc">Warm beige</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#E9DCC3"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Clay</div>
+            <div class="swatch-hex">#E9DCC3</div>
+            <div class="swatch-desc">Light clay</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#F3F0E7"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Linen</div>
+            <div class="swatch-hex">#F3F0E7</div>
+            <div class="swatch-desc">Soft off-white</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#E6D8B6"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Wheat</div>
+            <div class="swatch-hex">#E6D8B6</div>
+            <div class="swatch-desc">Pale yellow-beige</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <div class="group-title">Group 3: Canopy</div>
+      <div class="usage">For highlights, UI elements, code, etc.</div>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#4C7A5D"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Fern</div>
+            <div class="swatch-hex">#4C7A5D</div>
+            <div class="swatch-desc">Muted green</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#6C8A7B"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Riverstone</div>
+            <div class="swatch-hex">#6C8A7B</div>
+            <div class="swatch-desc">Cool stone gray-green</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#3E5C4B"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Pine</div>
+            <div class="swatch-hex">#3E5C4B</div>
+            <div class="swatch-desc">Deep pine green</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#A3B18A"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Sage</div>
+            <div class="swatch-hex">#A3B18A</div>
+            <div class="swatch-desc">Soft sage green</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <div class="group-title">Group 4: Underbrush</div>
+      <div class="usage">For warnings, errors, or colorful highlights.</div>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#C97D60"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Terracotta</div>
+            <div class="swatch-hex">#C97D60</div>
+            <div class="swatch-desc">Warm terracotta</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#D9A441"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Ochre</div>
+            <div class="swatch-hex">#D9A441</div>
+            <div class="swatch-desc">Earthy ochre yellow</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#A34F2B"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Redwood</div>
+            <div class="swatch-hex">#A34F2B</div>
+            <div class="swatch-desc">Muted red-brown</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#B5A642"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Olive</div>
+            <div class="swatch-hex">#B5A642</div>
+            <div class="swatch-desc">Olive green</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:32px; font-size:1em; color:#3A3A32;">
+      <strong>How to Use This Palette:</strong>
+      <ul>
+        <li>Group 1: Use for backgrounds in dark mode, or text in light mode.</li>
+        <li>Group 2: Use for backgrounds in light mode, or text in dark mode.</li>
+        <li>Group 3: Use for UI highlights, selection, code syntax, links, etc.</li>
+        <li>Group 4: Use for warnings, errors, success, or colorful accents.</li>
+      </ul>
+    </div>
+
+    <!-- Palette Usage Guide -->
+    <div style="margin-top:32px;">
+      <strong style="font-size:1.1em; color:#4C7A5D;">Palette Usage Guide</strong>
+      <div style="margin-top:10px; font-size:0.98em; color:#3A3A32;">
+        <ul>
+          <li>Avoid brown on green, or green on brown for backgrounds and menus.</li>
+          <li>If background is <span style="color:#1B2B22;">Forest Night</span>, use <span style="color:#233024;">Moss</span> for menus or overlays.</li>
+          <li>If background is <span style="color:#2E2217;">Soil</span>, use <span style="color:#3A3A32;">Charcoal</span> for menus or overlays.</li>
+          <li>For text on dark backgrounds, prefer light colors from Sunlit Earth.</li>
+          <li>For text on light backgrounds, prefer dark colors from Deep Earth.</li>
+        </ul>
+        <div style="display:flex; gap:24px; margin-top:18px; flex-wrap:wrap;">
+          <!-- Example 1: Forest Night background, Moss menu -->
+          <div style="width:180px;">
+            <div style="background:#1B2B22; border-radius:8px 8px 0 0; height:38px; color:#F5E9D4; display:flex; align-items:center; justify-content:center;">Forest Night (bg)</div>
+            <div style="background:#233024; border-radius:0 0 8px 8px; height:38px; color:#F5E9D4; display:flex; align-items:center; justify-content:center;">Moss (menu)</div>
+          </div>
+          <!-- Example 2: Soil background, Charcoal menu -->
+          <div style="width:180px;">
+            <div style="background:#2E2217; border-radius:8px 8px 0 0; height:38px; color:#F5E9D4; display:flex; align-items:center; justify-content:center;">Soil (bg)</div>
+            <div style="background:#3A3A32; border-radius:0 0 8px 8px; height:38px; color:#F5E9D4; display:flex; align-items:center; justify-content:center;">Charcoal (menu)</div>
+          </div>
+          <!-- Example 3: Sand background, Forest Night text -->
+          <div style="width:180px;">
+            <div style="background:#F5E9D4; border-radius:8px; height:38px; color:#1B2B22; display:flex; align-items:center; justify-content:center; border:1px solid #E9DCC3;">Sand (bg), Forest Night (text)</div>
+          </div>
+          <!-- Example 4: Wheat background, Moss text -->
+          <div style="width:180px;">
+            <div style="background:#E6D8B6; border-radius:8px; height:38px; color:#233024; display:flex; align-items:center; justify-content:center; border:1px solid #E9DCC3;">Wheat (bg), Moss (text)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
