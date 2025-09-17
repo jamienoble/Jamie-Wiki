@@ -1,0 +1,95 @@
+Earthy Palette Theme Creation Guide
+===================================
+
+Palette Groups:
+---------------
+1. Deep Earth (Dark)
+   - Forest Night (#1B2B22)
+   - Soil (#2E2217)
+   - Moss (#233024)
+   - Charcoal (#3A3A32)
+   Use for: backgrounds in dark mode, text in light mode.
+
+2. Sunlit Earth (Light)
+   - Sand (#F5E9D4)
+   - Clay (#E9DCC3)
+   - Linen (#F3F0E7)
+   - Wheat (#E6D8B6)
+   Use for: backgrounds in light mode, text in dark mode.
+
+3. Canopy (Cool Accents)
+   - Fern (#4C7A5D)
+   - Riverstone (#6C8A7B)
+   - Pine (#3E5C4B)
+   - Sage (#A3B18A)
+   Use for: UI highlights, selection, code syntax, links.
+
+4. Underbrush (Warm Accents)
+   - Terracotta (#C97D60)
+   - Ochre (#D9A441)
+   - Redwood (#A34F2B)
+   - Olive (#B5A642)
+   Use for: warnings, errors, success, colorful accents.
+
+General Theme Design Rules:
+--------------------------
+- Avoid brown on green, or green on brown for backgrounds and menus.
+- For dark backgrounds (Forest Night), use Moss for menus/overlays.
+- For dark backgrounds (Soil), use Charcoal for menus/overlays.
+- For text on dark backgrounds, use light colors from Sunlit Earth.
+- For text on light backgrounds, use dark colors from Deep Earth.
+- Use Canopy colors for highlights, selection, code, and links.
+- Use Underbrush colors for warnings, errors, and accent elements.
+- Accent color can be customized for integration with app-specific accent systems.
+- Use palette colors consistently for harmonious, readable UI.
+
+Theme Mapping Principles:
+------------------------
+When creating a theme for any app, map palette groups to UI elements as follows:
+
+- Backgrounds:
+  - Use Deep Earth for dark mode backgrounds.
+  - Use Sunlit Earth for light mode backgrounds.
+  - For overlays/menus, use Moss or Charcoal depending on the parent background.
+
+- Text:
+  - On dark backgrounds, use Sunlit Earth colors for text.
+  - On light backgrounds, use Deep Earth colors for text.
+
+- Headings & Titles:
+  - Use Underbrush or Canopy colors for headings and important titles.
+
+- UI Highlights:
+  - Use Canopy colors for selection, code syntax, links, and interactive highlights.
+
+- Tags, Badges, and Chips:
+  - Use Canopy or Deep Earth for text, and Sunlit Earth or Deep Earth for backgrounds.
+
+- Warnings, Errors, Success:
+  - Use Underbrush colors for status indicators and accent elements.
+
+- Tables:
+  - Alternate row backgrounds using palette colors for contrast and readability.
+
+- Inline Code:
+  - Use Canopy for code color, Deep Earth or Sunlit Earth for code background.
+
+Example Usage Patterns:
+----------------------
+- Forest Night background + Moss menu/overlay
+- Soil background + Charcoal menu/overlay
+- Sand background + Forest Night text
+- Wheat background + Moss text
+
+How to Extend for New Apps:
+---------------------------
+1. Identify the app's UI elements (backgrounds, text, menus, highlights, etc).
+2. Assign palette groups to each element using the mapping principles above.
+3. Adjust accent colors to fit the app's accent system if needed.
+4. Test for readability and harmony; avoid problematic color combinations.
+5. Document your theme mapping for future reference and consistency.
+
+Notes:
+------
+- This guide is intended for creating new themes for any app using the Earthy Palette.
+- Adapt the mapping as needed for the specific UI and requirements of your app.
