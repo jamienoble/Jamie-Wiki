@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-17T08:45:49.572+01:00","modified":"2025-09-17T08:56:49.284+01:00","cssclasses":""}
+{"publish":true,"created":"2025-09-17T08:45:49.572+01:00","modified":"2025-09-17T09:00:50.762+01:00","cssclasses":""}
 ---
 
 summary: "An image of the oldest recorded complaint letter"
@@ -7,7 +7,7 @@ summary: "An image of the oldest recorded complaint letter"
 
 # Dragon proof cart complaint letter
 
-![[6.Other/Images/image_1758095484017.jpeg]]
+![[6.Other/Images/image_1758095484017.jpeg|200]]  <!-- Limit image width to 400px -->
 ## Overview
 
 **Period:**  
@@ -70,5 +70,3 @@ Discuss why this artifact is important, what it tells us about the period, and a
 
 <!-- Optional: Add a gallery or additional images -->
 <!-- ![Detail View](/static/artifacts/artifact-detail.jpg) -->
-
-```
