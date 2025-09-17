@@ -28,27 +28,28 @@ const config: QuartzConfig = {
         code: "IBM Plex Mono",
       },
       colors: {
+        // Earthy Palette mapped to Quartz keys and usage rules
         lightMode: {
-          light: "#f8f8f2",        // Background (Dracula Foreground, but light)
-          lightgray: "#e6e6e6",    // Custom light gray
-          gray: "#44475a",         // Current Line (for borders, etc.)
-          darkgray: "#6272a4",     // Comment (for secondary text)
-          dark: "#282a36",         // Text (Dracula Background, but dark for contrast)
-          secondary: "#8be9fd",    // Cyan
-          tertiary: "#ffb86c",     // Orange
-          highlight: "rgba(189, 147, 249, 0.15)", // Purple highlight
-          textHighlight: "#ff79c688", // Pink highlight
+          light: "#F5E9D4",        // Sand (page background)
+          lightgray: "#E9DCC3",    // Clay (borders)
+          gray: "#F3F0E7",         // Linen (graph links, heavier borders)
+          darkgray: "#3A3A32",     // Charcoal (body text)
+          dark: "#1B2B22",         // Forest Night (header text, icons)
+          secondary: "#4C7A5D",    // Fern (link colour, current graph node)
+          tertiary: "#6C8A7B",     // Riverstone (hover states, visited graph nodes)
+          highlight: "rgba(108,138,123,0.15)", // Riverstone (internal link bg, highlighted text, code lines)
+          textHighlight: "#E9DCC388", // Clay (markdown highlighted text background)
         },
         darkMode: {
-          light: "#282a36",        // Background
-          lightgray: "#44475a",    // Current Line
-          gray: "#6272a4",         // Comment
-          darkgray: "#bd93f9",     // Purple
-          dark: "#f8f8f2",         // Foreground for text
-          secondary: "#50fa7b",    // Green
-          tertiary: "#ffb86c",     // Orange
-          highlight: "rgba(80, 250, 123, 0.15)", // Green highlight
-          textHighlight: "#f1fa8c88", // Yellow highlight
+          light: "#1B2B22",        // Forest Night (page background)
+          lightgray: "#233024",    // Moss (borders)
+          gray: "#3A3A32",         // Charcoal (graph links, heavier borders)
+          darkgray: "#F5E9D4",     // Sand (body text)
+          dark: "#E9DCC3",         // Clay (header text, icons)
+          secondary: "#A3B18A",    // Sage (link colour, current graph node)
+          tertiary: "#4C7A5D",     // Fern (hover states, visited graph nodes)
+          highlight: "rgba(108,138,123,0.15)", // Riverstone (internal link bg, highlighted text, code lines)
+          textHighlight: "#23302488", // Moss (markdown highlighted text background)
         },
       },
     },
