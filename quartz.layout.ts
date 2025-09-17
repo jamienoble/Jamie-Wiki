@@ -38,7 +38,8 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    // Remove or comment out the following line to hide explorer:
+    // Component.Explorer(),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +63,8 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    // Remove or comment out the following line to hide explorer:
+    // Component.Explorer(),
   ],
   right: [],
 }
