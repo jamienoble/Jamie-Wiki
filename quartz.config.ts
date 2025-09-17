@@ -29,11 +29,11 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f8f8f2",        // Foreground
+          light: "#f8f8f2",        // Background (Dracula Foreground, but light)
           lightgray: "#e6e6e6",    // Custom light gray
-          gray: "#bd93f9",         // Purple
-          darkgray: "#6272a4",     // Comment
-          dark: "#44475a",         // Current Line
+          gray: "#44475a",         // Current Line (for borders, etc.)
+          darkgray: "#6272a4",     // Comment (for secondary text)
+          dark: "#282a36",         // Text (Dracula Background, but dark for contrast)
           secondary: "#8be9fd",    // Cyan
           tertiary: "#ffb86c",     // Orange
           highlight: "rgba(189, 147, 249, 0.15)", // Purple highlight
