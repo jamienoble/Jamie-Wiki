@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f5f3e7",        // warm off-white
-          lightgray: "#e6dcc3",    // light tan
-          gray: "#b7a16a",         // muted brown
-          darkgray: "#6b5e3c",     // deep brown
-          dark: "#3e2f1c",         // dark brown
-          secondary: "#7a9c5c",    // warm green
-          tertiary: "#b7a16a",     // muted brown
-          highlight: "rgba(122, 156, 92, 0.15)", // green highlight
-          textHighlight: "#e6dcc388", // light tan highlight
+          light: "#ECEFF4",        // Snow Storm
+          lightgray: "#E5E9F0",   // Snow Storm
+          gray: "#D8DEE9",        // Snow Storm
+          darkgray: "#81A1C1",    // Frost
+          dark: "#5E81AC",        // Frost
+          secondary: "#8FBCBB",   // Frost
+          tertiary: "#88C0D0",    // Frost
+          highlight: "rgba(136, 192, 208, 0.15)", // Frost highlight
+          textHighlight: "#A3BE8C88", // Aurora highlight
         },
         darkMode: {
-          light: "#2e2a24",        // dark brown
-          lightgray: "#4b473a",    // muted brown
-          gray: "#7a9c5c",         // warm green
-          darkgray: "#b7a16a",     // muted brown
-          dark: "#f5f3e7",         // warm off-white for text
-          secondary: "#a3c586",    // lighter green
-          tertiary: "#b7a16a",     // muted brown
-          highlight: "rgba(163, 197, 134, 0.15)", // green highlight
-          textHighlight: "#7a9c5c88", // green highlight
+          light: "#2E3440",        // Polar Night
+          lightgray: "#3B4252",    // Polar Night
+          gray: "#434C5E",         // Polar Night
+          darkgray: "#4C566A",     // Polar Night
+          dark: "#ECEFF4",         // Snow Storm for text
+          secondary: "#A3BE8C",    // Aurora
+          tertiary: "#B48EAD",     // Aurora
+          highlight: "rgba(163, 190, 140, 0.15)", // Aurora highlight
+          textHighlight: "#88C0D088", // Frost highlight
         },
       },
     },
