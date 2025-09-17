@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#ECEFF4",        // Snow Storm
-          lightgray: "#E5E9F0",   // Snow Storm
-          gray: "#D8DEE9",        // Snow Storm
-          darkgray: "#81A1C1",    // Frost
-          dark: "#5E81AC",        // Frost
-          secondary: "#8FBCBB",   // Frost
-          tertiary: "#88C0D0",    // Frost
-          highlight: "rgba(136, 192, 208, 0.15)", // Frost highlight
-          textHighlight: "#A3BE8C88", // Aurora highlight
+          light: "#f8f8f2",        // Foreground
+          lightgray: "#e6e6e6",    // Custom light gray
+          gray: "#bd93f9",         // Purple
+          darkgray: "#6272a4",     // Comment
+          dark: "#44475a",         // Current Line
+          secondary: "#8be9fd",    // Cyan
+          tertiary: "#ffb86c",     // Orange
+          highlight: "rgba(189, 147, 249, 0.15)", // Purple highlight
+          textHighlight: "#ff79c688", // Pink highlight
         },
         darkMode: {
-          light: "#2E3440",        // Polar Night
-          lightgray: "#3B4252",    // Polar Night
-          gray: "#434C5E",         // Polar Night
-          darkgray: "#4C566A",     // Polar Night
-          dark: "#ECEFF4",         // Snow Storm for text
-          secondary: "#A3BE8C",    // Aurora
-          tertiary: "#B48EAD",     // Aurora
-          highlight: "rgba(163, 190, 140, 0.15)", // Aurora highlight
-          textHighlight: "#88C0D088", // Frost highlight
+          light: "#282a36",        // Background
+          lightgray: "#44475a",    // Current Line
+          gray: "#6272a4",         // Comment
+          darkgray: "#bd93f9",     // Purple
+          dark: "#f8f8f2",         // Foreground for text
+          secondary: "#50fa7b",    // Green
+          tertiary: "#ffb86c",     // Orange
+          highlight: "rgba(80, 250, 123, 0.15)", // Green highlight
+          textHighlight: "#f1fa8c88", // Yellow highlight
         },
       },
     },
