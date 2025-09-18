@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Home","created":"2025-09-16T16:16:46.176+01:00","modified":"2025-09-18T11:28:49.389+01:00","cssclasses":""}
+{"publish":true,"title":"Home","created":"2025-09-16T16:16:46.176+01:00","modified":"2025-09-18T11:49:57.251+01:00","cssclasses":""}
 ---
 
 
@@ -27,3 +27,4 @@ Not everything is surface level, some digging around may be needed to discover e
 A good place to start might be one of the museum pages, or perhaps the historical event timeline. 
 ## Sections
 
+[[National Museum of Ethya/National Museum of Ethya]]
