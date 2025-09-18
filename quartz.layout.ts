@@ -30,10 +30,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
@@ -56,10 +52,14 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
+    // Remove or comment out the following line to hide explorer:
+    // Component.Explorer(),
+  ],
+  right: [],
+}
         { Component: Component.Darkmode() },
       ],
     }),
