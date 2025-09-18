@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Welcome","created":"2025-09-16T16:16:46.176+01:00","modified":"2025-09-17T16:00:14.478+01:00","cssclasses":""}
+{"publish":true,"title":"Home","created":"2025-09-16T16:16:46.176+01:00","modified":"2025-09-18T11:28:49.389+01:00","cssclasses":""}
 ---
 
 
@@ -16,9 +16,14 @@
 
 <hr class="hr-nav">
 
-## Welcome to the wiki for the world of !  
+## Welcome to the central archive for the world of !  
 
-Here you'll find a collection of notes, resources, and information related to my work, portfolio, and car.
+Feel free to explore all collated information regarding the world of ... 
 
+Contained in this website is information regarding places geography, events and the people of ...
+
+Not everything is surface level, some digging around may be needed to discover every nook and cranny. 
+
+A good place to start might be one of the museum pages, or perhaps the historical event timeline. 
 ## Sections
 
